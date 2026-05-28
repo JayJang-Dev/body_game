@@ -629,7 +629,7 @@ const ALL_WORDS = [
   {w:"Figure skater",s:"피겨스케이터",c:"Job·직업",lang:"en"},
   {w:"Tug of war",s:"줄다리기",c:"Action·행동",lang:"en"},
 ];
-const MAX_WORDS_PER_ROUND = 30;
+//const MAX_WORDS_PER_ROUND = 30;
 
 let cfg = {
   totalTeams: 10,
@@ -651,7 +651,7 @@ function shuffle(a) {
 }
 
 function getWordPool() {
-  return shuffle(ALL_WORDS).slice(0, MAX_WORDS_PER_ROUND);
+  return shuffle(All_WORDS);
 }
 
 function show(id) {
